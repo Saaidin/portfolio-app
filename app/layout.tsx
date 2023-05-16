@@ -1,4 +1,4 @@
-import { aboutMeData, pages } from "./data/data"
+import { aboutMeData, pages, contactMeLinks } from "./data/data"
 import "../styles/globals.css"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
@@ -15,7 +15,7 @@ export default function RootLayout({
       <body>
         <Header name={aboutMeData.name} pages={pages} />
         {children}
-        <Footer />
+        <Footer contactMeLinks={contactMeLinks} />
       </body>
     </html>
   )

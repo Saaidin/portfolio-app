@@ -87,3 +87,10 @@ export const projects = [
     ],
   },
 ]
+
+export const contactMeLinks = [
+  "admin@dinwebdev.com",
+  "twitter",
+  "linkedin",
+  "medium",
+]
