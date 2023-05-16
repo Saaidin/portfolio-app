@@ -5,7 +5,11 @@ import { BsTwitter } from "react-icons/bs"
 import { FaLinkedin } from "react-icons/fa"
 import { GrMedium } from "react-icons/gr"
 
-export default function Footer({ contactMeLinks }) {
+type FooterProps = {
+  contactMeLinks: string[]
+}
+
+export default function Footer({ contactMeLinks }: FooterProps) {
   return (
     <footer className="w-full bg-white shadow-footer mt-12 py-4 fixed bottom-0">
       <div className="flex items-center justify-center gap-1">
